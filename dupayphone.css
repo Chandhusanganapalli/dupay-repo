@@ -537,18 +537,13 @@ body {
     padding: 10px;
     width: 408px;
     height: 120px;
-    border-radius: 20px;
+    border-radius: 15px;
     display: none;
 
 }
 
 .try-content {
-    color: white;
-
-    padding-left: 30px;
-    padding-bottom: 5px;
-    padding-top: 20px;
-    padding-right: 100px;
+    color: white; 
 }
 
 .try-content>p {
@@ -571,8 +566,10 @@ body {
 
 .try-qr>img {
     float: right;
-    height: 100px;
-    width: 108px;
+    height: 109px;
+    width: 109px;
+    width: fit-content;
+    padding-bottom: 10px;
 
 
 
@@ -1082,7 +1079,8 @@ body {
 
     .try-content-qr {
         display: flex;
-        margin: 10px;
+       margin: 10px;
+        border-color:rgb(154, 153, 153);
 
     }
     .try-content{ 
