@@ -619,7 +619,7 @@ body {
 
 }
 
-/* eudh */
+
 
 
 /* media queries */
@@ -638,23 +638,31 @@ body {
 
     .main-exp-content-container {
         padding: 0%;
-        padding-top: 30px;
-        padding-left: 50px;
 
+
+    }
+
+    .exp-content {
+        padding-top: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 30px;
     }
 
     .exp-content>h2 {
         font-size: 44px;
+
     }
 
     .exp-content>p {
-        font-size: 18px;
-        padding-right: 40px;
+        font-size: 20px;
+
     }
 
     .exp-content>svg {
         width: 63px;
         height: 63px;
+
     }
 
     .exp-img-container {
@@ -684,7 +692,7 @@ body {
     }
 
     .moneytrans-content>p {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .moneytrans-content>svg {
@@ -718,19 +726,25 @@ body {
     .main-payment-content {
         flex: 1;
         padding: 0%;
-        padding-top: 30px;
-        padding-left: 50px
+
+    }
+
+    .payment-content {
+        padding-top: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 30px;
     }
 
 
     .payment-content>p {
-        font-size: 18px;
-        padding-right: 30px;
+        font-size: 20px;
+
     }
 
     .payment-content>h2 {
         font-size: 44px;
-        padding-right: 30px;
+
     }
 
     .payment-content>svg {
@@ -800,11 +814,6 @@ body {
         font-size: 30px;
     }
 
-
-
-
-
-
     .total-body {
         width: 100%;
         margin: auto;
@@ -814,8 +823,6 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: center;
-
-
     }
 
     .future-finance>h2 {
@@ -840,8 +847,9 @@ body {
     .main-trust-container {
         display: flex;
         flex-direction: row;
-        padding-top: 100px;
-        padding-bottom: 40px;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        gap: 30px;
         width: 90%;
         margin: auto;
     }
@@ -857,7 +865,8 @@ body {
 
     .trust-content {
         flex: 1;
-        padding-top: 100px;
+        padding-top: 120px;
+        padding-bottom: 100px;
     }
 
     .trust-content>h2 {
@@ -865,7 +874,11 @@ body {
     }
 
     .trust-content>p {
-        font-size: 18px;
+        font-size: 20px;
+    }
+
+    .main-steps-container {
+        padding-bottom: 20px;
     }
 
     .simple-steps-heading>h2 {
@@ -881,7 +894,7 @@ body {
     }
 
     .ready-to-send-para {
-        font-size: 18px;
+        font-size: 20px;
 
     }
 
